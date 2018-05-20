@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alloysius/Desktop/tools/neca/src/arith.h
+cstdint
+-
+gmpxx.h
+-
+
+/home/alloysius/Desktop/tools/neca/src/gmp_helpers.h
+gmpxx.h
+-
+
+/home/alloysius/Desktop/tools/neca/src/main.cpp
+algorithm
+-
+array
+-
+chrono
+-
+cmath
+-
+iomanip
+-
+iostream
+-
+vector
+-
+gmpxx.h
+-
+gmp_helpers.h
+/home/alloysius/Desktop/tools/neca/src/gmp_helpers.h
+arith.h
+/home/alloysius/Desktop/tools/neca/src/arith.h
+

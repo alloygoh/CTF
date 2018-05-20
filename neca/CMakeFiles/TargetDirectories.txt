@@ -1,0 +1,3 @@
+/home/alloysius/Desktop/tools/neca/CMakeFiles/rebuild_cache.dir
+/home/alloysius/Desktop/tools/neca/CMakeFiles/neca.dir
+/home/alloysius/Desktop/tools/neca/CMakeFiles/edit_cache.dir
