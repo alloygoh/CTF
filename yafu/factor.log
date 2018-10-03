@@ -1,0 +1,477 @@
+10/01/18 09:18:52 v1.34.5 @ kali, 
+10/01/18 09:18:52 v1.34.5 @ kali, ****************************
+10/01/18 09:18:52 v1.34.5 @ kali, Starting factorization of 23720859638554553492250520037551375940141852193066519896722452437003318347957133
+10/01/18 09:18:52 v1.34.5 @ kali, using pretesting plan: normal
+10/01/18 09:18:52 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/01/18 09:18:52 v1.34.5 @ kali, ****************************
+10/01/18 09:18:52 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C80
+10/01/18 09:18:52 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C80
+10/01/18 09:18:52 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C80
+10/01/18 09:18:52 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C80
+10/01/18 09:18:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:18:52 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 24.62
+10/01/18 09:18:53 v1.34.5 @ kali, Finished 30 curves using Lenstra ECM method on C80 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:18:53 v1.34.5 @ kali, current ECM pretesting depth: 15.18
+10/01/18 09:18:53 v1.34.5 @ kali, scheduled 74 curves at B1=11000 toward target pretesting depth of 24.62
+10/01/18 09:18:58 v1.34.5 @ kali, Finished 74 curves using Lenstra ECM method on C80 input, B1=11K, B2=gmp-ecm default
+10/01/18 09:18:58 v1.34.5 @ kali, current ECM pretesting depth: 20.24
+10/01/18 09:18:58 v1.34.5 @ kali, scheduled 188 curves at B1=50000 toward target pretesting depth of 24.62
+10/01/18 09:19:45 v1.34.5 @ kali, Finished 188 curves using Lenstra ECM method on C80 input, B1=50K, B2=gmp-ecm default
+10/01/18 09:19:45 v1.34.5 @ kali, final ECM pretested depth: 24.64
+10/01/18 09:19:45 v1.34.5 @ kali, scheduler: switching to sieve method
+10/01/18 09:19:45 v1.34.5 @ kali, starting SIQS on c80: 23720859638554553492250520037551375940141852193066519896722452437003318347957133
+10/01/18 09:19:45 v1.34.5 @ kali, random seeds: 2039792393, 579467502
+10/01/18 09:19:45 v1.34.5 @ kali, ==== sieve params ====
+10/01/18 09:19:45 v1.34.5 @ kali, n = 81 digits, 267 bits
+10/01/18 09:19:45 v1.34.5 @ kali, factor base: 45952 primes (max prime = 1185109)
+10/01/18 09:19:45 v1.34.5 @ kali, single large prime cutoff: 100734265 (85 * pmax)
+10/01/18 09:19:45 v1.34.5 @ kali, allocating 7 large prime slices of factor base
+10/01/18 09:19:45 v1.34.5 @ kali, buckets hold 2048 elements
+10/01/18 09:19:45 v1.34.5 @ kali, using 32k sieve core
+10/01/18 09:19:45 v1.34.5 @ kali, sieve interval: 10 blocks of size 32768
+10/01/18 09:19:45 v1.34.5 @ kali, polynomial A has ~ 10 factors
+10/01/18 09:19:45 v1.34.5 @ kali, using multiplier of 5
+10/01/18 09:19:45 v1.34.5 @ kali, using SPV correction of 20 bits, starting at offset 37
+10/01/18 09:19:45 v1.34.5 @ kali, using SSE2 for trial division and x64 sieve scanning
+10/01/18 09:19:45 v1.34.5 @ kali, using SSE4.1 enabled 32k sieve core
+10/01/18 09:19:45 v1.34.5 @ kali, using SSE2 for resieving 13-16 bit primes
+10/01/18 09:19:45 v1.34.5 @ kali, trial factoring cutoff at 93 bits
+10/01/18 09:19:45 v1.34.5 @ kali, ==== sieving started (1 thread) ====
+10/01/18 09:23:04 v1.34.5 @ kali, trial division touched 4024174 sieve locations out of 69689016320
+10/01/18 09:23:04 v1.34.5 @ kali, 46143 relations found: 23977 full + 22166 from 238797 partial, using 106337 polys (414 A polys)
+10/01/18 09:23:04 v1.34.5 @ kali, on average, sieving found 2.47 rels/poly and 1317.70 rels/sec
+10/01/18 09:23:04 v1.34.5 @ kali, trial division touched 4024174 sieve locations out of 69689016320
+10/01/18 09:23:04 v1.34.5 @ kali, ==== post processing stage (msieve-1.38) ====
+10/01/18 09:23:04 v1.34.5 @ kali, begin with 262774 relations
+10/01/18 09:23:05 v1.34.5 @ kali, reduce to 65665 relations in 2 passes
+10/01/18 09:23:05 v1.34.5 @ kali, recovered 65665 relations
+10/01/18 09:23:05 v1.34.5 @ kali, recovered 49131 polynomials
+10/01/18 09:23:05 v1.34.5 @ kali, attempting to build 46143 cycles
+10/01/18 09:23:05 v1.34.5 @ kali, found 46143 cycles in 1 passes
+10/01/18 09:23:05 v1.34.5 @ kali, distribution of cycle lengths:
+10/01/18 09:23:05 v1.34.5 @ kali,    length 1 : 23977
+10/01/18 09:23:05 v1.34.5 @ kali,    length 2 : 22166
+10/01/18 09:23:05 v1.34.5 @ kali, largest cycle: 2 relations
+10/01/18 09:23:05 v1.34.5 @ kali, matrix is 45952 x 46143 (5.9 MB) with weight 1355640 (29.38/col)
+10/01/18 09:23:05 v1.34.5 @ kali, sparse part has weight 1355640 (29.38/col)
+10/01/18 09:23:05 v1.34.5 @ kali, filtering completed in 4 passes
+10/01/18 09:23:05 v1.34.5 @ kali, matrix is 32424 x 32488 (4.6 MB) with weight 1084742 (33.39/col)
+10/01/18 09:23:05 v1.34.5 @ kali, sparse part has weight 1084742 (33.39/col)
+10/01/18 09:23:05 v1.34.5 @ kali, saving the first 48 matrix rows for later
+10/01/18 09:23:05 v1.34.5 @ kali, matrix is 32376 x 32488 (3.9 MB) with weight 903498 (27.81/col)
+10/01/18 09:23:05 v1.34.5 @ kali, sparse part has weight 827434 (25.47/col)
+10/01/18 09:23:05 v1.34.5 @ kali, matrix includes 64 packed rows
+10/01/18 09:23:05 v1.34.5 @ kali, using block size 12995 for processor cache size 131072 kB
+10/01/18 09:23:05 v1.34.5 @ kali, commencing Lanczos iteration
+10/01/18 09:23:05 v1.34.5 @ kali, memory use: 4.0 MB
+10/01/18 09:23:07 v1.34.5 @ kali, lanczos halted after 514 iterations (dim = 32373)
+10/01/18 09:23:07 v1.34.5 @ kali, recovered 16 nontrivial dependencies
+10/01/18 09:23:07 v1.34.5 @ kali, prp42 = 148405979137840237707969603037075418044979
+10/01/18 09:23:07 v1.34.5 @ kali, prp39 = 159837627677537822775326088125345131327
+10/01/18 09:23:07 v1.34.5 @ kali, Lanczos elapsed time = 2.3700 seconds.
+10/01/18 09:23:07 v1.34.5 @ kali, Sqrt elapsed time = 0.0330 seconds.
+10/01/18 09:23:07 v1.34.5 @ kali, SIQS elapsed time = 201.8211 seconds.
+10/01/18 09:23:07 v1.34.5 @ kali, 
+10/01/18 09:23:07 v1.34.5 @ kali, 
+10/01/18 09:23:07 v1.34.5 @ kali, Total factoring time = 255.2888 seconds
+10/01/18 09:34:51 v1.34.5 @ kali, 
+10/01/18 09:34:51 v1.34.5 @ kali, ****************************
+10/01/18 09:34:51 v1.34.5 @ kali, Starting factorization of 59755785915071940777410462687053865746213471238342059083855091242958847756823862857528568455818718292728177410710857977036608634599838466481550581464029906079624826018704693710375310209753936270246969404076816723166667751916360924950918727366979622053194431737822331285079342683657899524035017056413873363
+10/01/18 09:34:51 v1.34.5 @ kali, using pretesting plan: normal
+10/01/18 09:34:51 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/01/18 09:34:51 v1.34.5 @ kali, ****************************
+10/01/18 09:34:51 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C305
+10/01/18 09:34:51 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C305
+10/01/18 09:34:51 v1.34.5 @ kali, prp10 = 3830230991
+10/01/18 09:34:51 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C296
+10/01/18 09:34:51 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C296
+10/01/18 09:34:52 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C296
+10/01/18 09:34:52 v1.34.5 @ kali, c86 = 81193098423388071581831219874712770325395072221985637038489649399306266586782296611133
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 64.62
+10/01/18 09:34:52 v1.34.5 @ kali, c29 = 48567766731066928992914220881 (curve 1 stg1 B1=2000 sigma=839170141 thread=0)
+10/01/18 09:34:52 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C210 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 29 curves at B1=2000 toward target pretesting depth of 55.69
+10/01/18 09:34:52 v1.34.5 @ kali, prp10 = 2919787733 (curve 1 stg1 B1=2000 sigma=3233576815 thread=0)
+10/01/18 09:34:52 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C181 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 28 curves at B1=2000 toward target pretesting depth of 52.92
+10/01/18 09:34:52 v1.34.5 @ kali, c48 = 248080031916619920097318059326612044289950860139 (curve 1 stg2 B1=2000 sigma=164065693 thread=0)
+10/01/18 09:34:52 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C172 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 27 curves at B1=2000 toward target pretesting depth of 38.15
+10/01/18 09:34:52 v1.34.5 @ kali, prp10 = 3941507411 (curve 1 stg1 B1=2000 sigma=869543289 thread=0)
+10/01/18 09:34:52 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C124 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 26 curves at B1=2000 toward target pretesting depth of 35.38
+10/01/18 09:34:52 v1.34.5 @ kali, c29 = 43448001146088749947017386519 (curve 1 stg1 B1=2000 sigma=924014532 thread=0)
+10/01/18 09:34:52 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C115 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 25 curves at B1=2000 toward target pretesting depth of 26.46
+10/01/18 09:34:52 v1.34.5 @ kali, c19 = 5410032874917282839 (curve 1 stg2 B1=2000 sigma=765815371 thread=0)
+10/01/18 09:34:52 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C86 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 24 curves at B1=2000 toward target pretesting depth of 20.62
+10/01/18 09:34:52 v1.34.5 @ kali, prp10 = 2386152269 (curve 1 stg1 B1=2000 sigma=2683291233 thread=0)
+10/01/18 09:34:52 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C67 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 23 curves at B1=2000 toward target pretesting depth of 17.85
+10/01/18 09:34:52 v1.34.5 @ kali, prp10 = 3371813233 (curve 1 stg1 B1=2000 sigma=4158392158 thread=0)
+10/01/18 09:34:52 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C58 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 22 curves at B1=2000 toward target pretesting depth of 14.77
+10/01/18 09:34:52 v1.34.5 @ kali, prp10 = 3876583517 (curve 1 stg1 B1=2000 sigma=3646550651 thread=0)
+10/01/18 09:34:52 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C48 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 21 curves at B1=2000 toward target pretesting depth of 12.00
+10/01/18 09:34:52 v1.34.5 @ kali, prp10 = 3401185901 (curve 1 stg1 B1=2000 sigma=30686461 thread=0)
+10/01/18 09:34:52 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C39 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 20 curves at B1=2000 toward target pretesting depth of 8.92
+10/01/18 09:34:52 v1.34.5 @ kali, c20 = 14106847389296976511 (curve 2 stg2 B1=2000 sigma=163579770 thread=0)
+10/01/18 09:34:52 v1.34.5 @ kali, Finished 2 curves using Lenstra ECM method on C29 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 18 curves at B1=2000 toward target pretesting depth of 3.08
+10/01/18 09:34:52 v1.34.5 @ kali, prp10 = 3939503207
+10/01/18 09:34:52 v1.34.5 @ kali, 
+10/01/18 09:34:52 v1.34.5 @ kali, ****************************
+10/01/18 09:34:52 v1.34.5 @ kali, Starting factorization of 81193098423388071581831219874712770325395072221985637038489649399306266586782296611133
+10/01/18 09:34:52 v1.34.5 @ kali, using pretesting plan: normal
+10/01/18 09:34:52 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/01/18 09:34:52 v1.34.5 @ kali, ****************************
+10/01/18 09:34:52 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C86
+10/01/18 09:34:52 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C86
+10/01/18 09:34:52 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C86
+10/01/18 09:34:52 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C86
+10/01/18 09:34:52 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:52 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 26.46
+10/01/18 09:34:53 v1.34.5 @ kali, prp10 = 3557368553 (curve 1 stg1 B1=2000 sigma=2264317374 thread=0)
+10/01/18 09:34:53 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C86 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 29 curves at B1=2000 toward target pretesting depth of 23.69
+10/01/18 09:34:53 v1.34.5 @ kali, c20 = 14322848131744340809 (curve 1 stg1 B1=2000 sigma=3774364693 thread=0)
+10/01/18 09:34:53 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C77 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 28 curves at B1=2000 toward target pretesting depth of 17.85
+10/01/18 09:34:53 v1.34.5 @ kali, prp10 = 3722043593 (curve 1 stg2 B1=2000 sigma=1131693486 thread=0)
+10/01/18 09:34:53 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C58 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 27 curves at B1=2000 toward target pretesting depth of 14.77
+10/01/18 09:34:53 v1.34.5 @ kali, c20 = 12506957983103244697 (curve 1 stg1 B1=2000 sigma=3496082063 thread=0)
+10/01/18 09:34:53 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C48 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 26 curves at B1=2000 toward target pretesting depth of 8.92
+10/01/18 09:34:53 v1.34.5 @ kali, c20 = 11537262707145557449 (curve 1 stg2 B1=2000 sigma=2320302159 thread=0)
+10/01/18 09:34:53 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C29 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 25 curves at B1=2000 toward target pretesting depth of 3.08
+10/01/18 09:34:53 v1.34.5 @ kali, prp10 = 2967050501
+10/01/18 09:34:53 v1.34.5 @ kali, 
+10/01/18 09:34:53 v1.34.5 @ kali, ****************************
+10/01/18 09:34:53 v1.34.5 @ kali, Starting factorization of 14322848131744340809
+10/01/18 09:34:53 v1.34.5 @ kali, using pretesting plan: normal
+10/01/18 09:34:53 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/01/18 09:34:53 v1.34.5 @ kali, ****************************
+10/01/18 09:34:53 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C20
+10/01/18 09:34:53 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C20
+10/01/18 09:34:53 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C20
+10/01/18 09:34:53 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C20
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 6.15
+10/01/18 09:34:53 v1.34.5 @ kali, prp10 = 3500764867 (curve 3 stg2 B1=2000 sigma=2799568701 thread=0)
+10/01/18 09:34:53 v1.34.5 @ kali, Finished 3 curves using Lenstra ECM method on C20 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 27 curves at B1=2000 toward target pretesting depth of 3.08
+10/01/18 09:34:53 v1.34.5 @ kali, prp10 = 4091348227
+10/01/18 09:34:53 v1.34.5 @ kali, Total factoring time = 0.0903 seconds
+10/01/18 09:34:53 v1.34.5 @ kali, 
+10/01/18 09:34:53 v1.34.5 @ kali, ****************************
+10/01/18 09:34:53 v1.34.5 @ kali, Starting factorization of 12506957983103244697
+10/01/18 09:34:53 v1.34.5 @ kali, using pretesting plan: normal
+10/01/18 09:34:53 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/01/18 09:34:53 v1.34.5 @ kali, ****************************
+10/01/18 09:34:53 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C20
+10/01/18 09:34:53 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C20
+10/01/18 09:34:53 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C20
+10/01/18 09:34:53 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C20
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 6.15
+10/01/18 09:34:53 v1.34.5 @ kali, prp10 = 3560059043 (curve 1 stg2 B1=2000 sigma=2636192766 thread=0)
+10/01/18 09:34:53 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C20 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 29 curves at B1=2000 toward target pretesting depth of 3.08
+10/01/18 09:34:53 v1.34.5 @ kali, prp10 = 3513132179
+10/01/18 09:34:53 v1.34.5 @ kali, Total factoring time = 0.0654 seconds
+10/01/18 09:34:53 v1.34.5 @ kali, Total factoring time = 0.3806 seconds
+10/01/18 09:34:53 v1.34.5 @ kali, 
+10/01/18 09:34:53 v1.34.5 @ kali, ****************************
+10/01/18 09:34:53 v1.34.5 @ kali, Starting factorization of 248080031916619920097318059326612044289950860139
+10/01/18 09:34:53 v1.34.5 @ kali, using pretesting plan: normal
+10/01/18 09:34:53 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/01/18 09:34:53 v1.34.5 @ kali, ****************************
+10/01/18 09:34:53 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C48
+10/01/18 09:34:53 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C48
+10/01/18 09:34:53 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C48
+10/01/18 09:34:53 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C48
+10/01/18 09:34:53 v1.34.5 @ kali, c29 = 24715334712355084106055567133
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 6.15
+10/01/18 09:34:53 v1.34.5 @ kali, prp10 = 2347400857 (curve 3 stg2 B1=2000 sigma=504462576 thread=0)
+10/01/18 09:34:53 v1.34.5 @ kali, Finished 3 curves using Lenstra ECM method on C20 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 27 curves at B1=2000 toward target pretesting depth of 3.08
+10/01/18 09:34:53 v1.34.5 @ kali, prp10 = 4276003519
+10/01/18 09:34:53 v1.34.5 @ kali, Total factoring time = 0.1738 seconds
+10/01/18 09:34:53 v1.34.5 @ kali, 
+10/01/18 09:34:53 v1.34.5 @ kali, ****************************
+10/01/18 09:34:53 v1.34.5 @ kali, Starting factorization of 43448001146088749947017386519
+10/01/18 09:34:53 v1.34.5 @ kali, using pretesting plan: normal
+10/01/18 09:34:53 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/01/18 09:34:53 v1.34.5 @ kali, ****************************
+10/01/18 09:34:53 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C29
+10/01/18 09:34:53 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C29
+10/01/18 09:34:53 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C29
+10/01/18 09:34:53 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C29
+10/01/18 09:34:53 v1.34.5 @ kali, prp10 = 3951926597
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 6.15
+10/01/18 09:34:53 v1.34.5 @ kali, prp10 = 3904443113 (curve 1 stg1 B1=2000 sigma=1291835271 thread=0)
+10/01/18 09:34:53 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C20 input, B1=2K, B2=gmp-ecm default
+10/01/18 09:34:53 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/01/18 09:34:53 v1.34.5 @ kali, scheduled 29 curves at B1=2000 toward target pretesting depth of 3.08
+10/01/18 09:34:53 v1.34.5 @ kali, prp10 = 2815800179
+10/01/18 09:34:53 v1.34.5 @ kali, Total factoring time = 0.1064 seconds
+10/01/18 09:34:53 v1.34.5 @ kali, Total factoring time = 2.3377 seconds
+10/02/18 07:52:45 v1.34.5 @ kali, 
+10/02/18 07:52:45 v1.34.5 @ kali, ****************************
+10/02/18 07:52:45 v1.34.5 @ kali, Starting factorization of 2163444177926356370001715936364415016055916526316141474034094987358918981439023317216400585132968222779141822558626309537887973763470935289279638564292686203866496655803486075194623157621954568251597989132759497406876204329839645053334938838408889749786051568019216494340005388848925879524377907668085481
+10/02/18 07:52:45 v1.34.5 @ kali, using pretesting plan: normal
+10/02/18 07:52:45 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/02/18 07:52:45 v1.34.5 @ kali, ****************************
+10/02/18 07:52:45 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C304
+10/02/18 07:52:45 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C304
+10/02/18 07:52:45 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C304
+10/02/18 07:52:46 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C304
+10/02/18 07:52:46 v1.34.5 @ kali, c153 = 134487724608755274120251372375889284455195223293926528224349023914298771892352280664747331514527283603942467527652102568150160659642835288088264530942379
+10/02/18 07:52:46 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:46 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 46.77
+10/02/18 07:52:46 v1.34.5 @ kali, c38 = 40298604039992093369468098350344122657 (curve 1 stg1 B1=2000 sigma=2365433083 thread=0)
+10/02/18 07:52:46 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C152 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:46 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:46 v1.34.5 @ kali, scheduled 29 curves at B1=2000 toward target pretesting depth of 35.08
+10/02/18 07:52:46 v1.34.5 @ kali, prp10 = 3672479309 (curve 1 stg1 B1=2000 sigma=2990375751 thread=0)
+10/02/18 07:52:46 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C114 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:46 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:46 v1.34.5 @ kali, scheduled 28 curves at B1=2000 toward target pretesting depth of 32.31
+10/02/18 07:52:46 v1.34.5 @ kali, c38 = 95283141850511177339704219930806257653 (curve 1 stg2 B1=2000 sigma=3670340531 thread=0)
+10/02/18 07:52:46 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C105 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:46 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:46 v1.34.5 @ kali, scheduled 27 curves at B1=2000 toward target pretesting depth of 20.62
+10/02/18 07:52:46 v1.34.5 @ kali, prp10 = 3602658691 (curve 1 stg1 B1=2000 sigma=1833589711 thread=0)
+10/02/18 07:52:46 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C67 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:46 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:46 v1.34.5 @ kali, scheduled 26 curves at B1=2000 toward target pretesting depth of 17.54
+10/02/18 07:52:46 v1.34.5 @ kali, prp10 = 2253014921 (curve 1 stg1 B1=2000 sigma=2260019485 thread=0)
+10/02/18 07:52:46 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C57 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:46 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:46 v1.34.5 @ kali, scheduled 25 curves at B1=2000 toward target pretesting depth of 14.77
+10/02/18 07:52:46 v1.34.5 @ kali, prp10 = 2307760907 (curve 1 stg2 B1=2000 sigma=4272825450 thread=0)
+10/02/18 07:52:46 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C48 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:46 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:46 v1.34.5 @ kali, scheduled 24 curves at B1=2000 toward target pretesting depth of 11.69
+10/02/18 07:52:46 v1.34.5 @ kali, c19 = 7204355933329177373 (curve 1 stg1 B1=2000 sigma=1408760323 thread=0)
+10/02/18 07:52:46 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C38 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:46 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:46 v1.34.5 @ kali, scheduled 23 curves at B1=2000 toward target pretesting depth of 5.85
+10/02/18 07:52:46 v1.34.5 @ kali, prp10 = 2240036549 (curve 1 stg1 B1=2000 sigma=196893019 thread=0)
+10/02/18 07:52:46 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C19 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:46 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:46 v1.34.5 @ kali, scheduled 22 curves at B1=2000 toward target pretesting depth of 3.08
+10/02/18 07:52:46 v1.34.5 @ kali, prp10 = 3773717219
+10/02/18 07:52:46 v1.34.5 @ kali, 
+10/02/18 07:52:46 v1.34.5 @ kali, ****************************
+10/02/18 07:52:46 v1.34.5 @ kali, Starting factorization of 134487724608755274120251372375889284455195223293926528224349023914298771892352280664747331514527283603942467527652102568150160659642835288088264530942379
+10/02/18 07:52:46 v1.34.5 @ kali, using pretesting plan: normal
+10/02/18 07:52:46 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/02/18 07:52:46 v1.34.5 @ kali, ****************************
+10/02/18 07:52:46 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C153
+10/02/18 07:52:46 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C153
+10/02/18 07:52:46 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C153
+10/02/18 07:52:47 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C153
+10/02/18 07:52:47 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:47 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 47.08
+10/02/18 07:52:47 v1.34.5 @ kali, prp10 = 3112696043 (curve 1 stg1 B1=2000 sigma=356386871 thread=0)
+10/02/18 07:52:47 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C153 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:47 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:47 v1.34.5 @ kali, scheduled 29 curves at B1=2000 toward target pretesting depth of 44.00
+10/02/18 07:52:47 v1.34.5 @ kali, c67 = 3335800586379664738793287157087446952688803273073767544148926267913 (curve 1 stg2 B1=2000 sigma=638370466 thread=0)
+10/02/18 07:52:47 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C143 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:47 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:47 v1.34.5 @ kali, scheduled 28 curves at B1=2000 toward target pretesting depth of 23.69
+10/02/18 07:52:47 v1.34.5 @ kali, prp10 = 3689457059 (curve 1 stg1 B1=2000 sigma=2037358094 thread=0)
+10/02/18 07:52:47 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C77 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:47 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:47 v1.34.5 @ kali, scheduled 27 curves at B1=2000 toward target pretesting depth of 20.62
+10/02/18 07:52:47 v1.34.5 @ kali, c48 = 301303965804248731606386167838508554694818612257 (curve 1 stg2 B1=2000 sigma=2861553745 thread=0)
+10/02/18 07:52:47 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C67 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:47 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:47 v1.34.5 @ kali, scheduled 26 curves at B1=2000 toward target pretesting depth of 6.15
+10/02/18 07:52:47 v1.34.5 @ kali, prp10 = 3020766599 (curve 2 stg2 B1=2000 sigma=2992767537 thread=0)
+10/02/18 07:52:47 v1.34.5 @ kali, Finished 2 curves using Lenstra ECM method on C20 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:47 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:47 v1.34.5 @ kali, scheduled 24 curves at B1=2000 toward target pretesting depth of 3.08
+10/02/18 07:52:47 v1.34.5 @ kali, prp10 = 3857104213
+10/02/18 07:52:47 v1.34.5 @ kali, Total factoring time = 0.3560 seconds
+10/02/18 07:52:47 v1.34.5 @ kali, 
+10/02/18 07:52:47 v1.34.5 @ kali, ****************************
+10/02/18 07:52:47 v1.34.5 @ kali, Starting factorization of 95283141850511177339704219930806257653
+10/02/18 07:52:47 v1.34.5 @ kali, using pretesting plan: normal
+10/02/18 07:52:47 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/02/18 07:52:47 v1.34.5 @ kali, ****************************
+10/02/18 07:52:47 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C38
+10/02/18 07:52:47 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C38
+10/02/18 07:52:47 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C38
+10/02/18 07:52:47 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C38
+10/02/18 07:52:47 v1.34.5 @ kali, c19 = 9168170784306687289
+10/02/18 07:52:47 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:47 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 6.15
+10/02/18 07:52:47 v1.34.5 @ kali, prp10 = 2975006687 (curve 1 stg1 B1=2000 sigma=1162348784 thread=0)
+10/02/18 07:52:47 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C20 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:47 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:47 v1.34.5 @ kali, scheduled 29 curves at B1=2000 toward target pretesting depth of 3.08
+10/02/18 07:52:47 v1.34.5 @ kali, prp10 = 3493376771
+10/02/18 07:52:47 v1.34.5 @ kali, Total factoring time = 0.1158 seconds
+10/02/18 07:52:47 v1.34.5 @ kali, 
+10/02/18 07:52:47 v1.34.5 @ kali, ****************************
+10/02/18 07:52:47 v1.34.5 @ kali, Starting factorization of 7204355933329177373
+10/02/18 07:52:47 v1.34.5 @ kali, using pretesting plan: normal
+10/02/18 07:52:47 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/02/18 07:52:47 v1.34.5 @ kali, ****************************
+10/02/18 07:52:47 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C19
+10/02/18 07:52:47 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C19
+10/02/18 07:52:47 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C19
+10/02/18 07:52:47 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C19
+10/02/18 07:52:47 v1.34.5 @ kali, prp10 = 2221006331
+10/02/18 07:52:47 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:47 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 3.08
+10/02/18 07:52:47 v1.34.5 @ kali, prp10 = 3243734983
+10/02/18 07:52:47 v1.34.5 @ kali, Total factoring time = 0.0753 seconds
+10/02/18 07:52:47 v1.34.5 @ kali, Total factoring time = 1.9924 seconds
+10/02/18 07:52:57 v1.34.5 @ kali, 
+10/02/18 07:52:57 v1.34.5 @ kali, ****************************
+10/02/18 07:52:57 v1.34.5 @ kali, Starting factorization of 40298604039992093369468098350344122657
+10/02/18 07:52:57 v1.34.5 @ kali, using pretesting plan: normal
+10/02/18 07:52:57 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/02/18 07:52:57 v1.34.5 @ kali, ****************************
+10/02/18 07:52:57 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C38
+10/02/18 07:52:57 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C38
+10/02/18 07:52:57 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C38
+10/02/18 07:52:57 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C38
+10/02/18 07:52:57 v1.34.5 @ kali, prp10 = 2161186871
+10/02/18 07:52:57 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:57 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 8.92
+10/02/18 07:52:57 v1.34.5 @ kali, prp10 = 2210378543 (curve 1 stg1 B1=2000 sigma=2849919624 thread=0)
+10/02/18 07:52:57 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C29 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:57 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:57 v1.34.5 @ kali, scheduled 29 curves at B1=2000 toward target pretesting depth of 5.85
+10/02/18 07:52:57 v1.34.5 @ kali, prp10 = 2343629927 (curve 2 stg2 B1=2000 sigma=2559605405 thread=0)
+10/02/18 07:52:57 v1.34.5 @ kali, Finished 2 curves using Lenstra ECM method on C19 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:52:57 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:52:57 v1.34.5 @ kali, scheduled 27 curves at B1=2000 toward target pretesting depth of 3.08
+10/02/18 07:52:57 v1.34.5 @ kali, prp10 = 3599498447
+10/02/18 07:52:57 v1.34.5 @ kali, Total factoring time = 0.1581 seconds
+10/02/18 07:54:05 v1.34.5 @ kali, 
+10/02/18 07:54:05 v1.34.5 @ kali, ****************************
+10/02/18 07:54:05 v1.34.5 @ kali, Starting factorization of 2253014921
+10/02/18 07:54:05 v1.34.5 @ kali, using pretesting plan: normal
+10/02/18 07:54:05 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/02/18 07:54:05 v1.34.5 @ kali, ****************************
+10/02/18 07:54:05 v1.34.5 @ kali, prp10 = 2253014921
+10/02/18 07:54:05 v1.34.5 @ kali, Total factoring time = 0.0089 seconds
+10/02/18 07:54:38 v1.34.5 @ kali, 
+10/02/18 07:54:38 v1.34.5 @ kali, ****************************
+10/02/18 07:54:38 v1.34.5 @ kali, Starting factorization of 3335800586379664738793287157087446952688803273073767544148926267913
+10/02/18 07:54:38 v1.34.5 @ kali, using pretesting plan: normal
+10/02/18 07:54:38 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/02/18 07:54:38 v1.34.5 @ kali, ****************************
+10/02/18 07:54:38 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C67
+10/02/18 07:54:38 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C67
+10/02/18 07:54:38 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C67
+10/02/18 07:54:38 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C67
+10/02/18 07:54:38 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:54:38 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 20.62
+10/02/18 07:54:38 v1.34.5 @ kali, prp10 = 2628947801 (curve 1 stg1 B1=2000 sigma=3848352786 thread=0)
+10/02/18 07:54:38 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C67 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:54:38 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:54:38 v1.34.5 @ kali, scheduled 29 curves at B1=2000 toward target pretesting depth of 17.85
+10/02/18 07:54:38 v1.34.5 @ kali, prp10 = 3607787551 (curve 1 stg2 B1=2000 sigma=3914488966 thread=0)
+10/02/18 07:54:38 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C58 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:54:38 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:54:38 v1.34.5 @ kali, scheduled 28 curves at B1=2000 toward target pretesting depth of 14.77
+10/02/18 07:54:38 v1.34.5 @ kali, prp10 = 3387057041 (curve 1 stg2 B1=2000 sigma=2870695860 thread=0)
+10/02/18 07:54:38 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C48 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:54:38 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:54:38 v1.34.5 @ kali, scheduled 27 curves at B1=2000 toward target pretesting depth of 12.00
+10/02/18 07:54:38 v1.34.5 @ kali, prp10 = 3138129073 (curve 1 stg1 B1=2000 sigma=3030297675 thread=0)
+10/02/18 07:54:38 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C39 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:54:38 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:54:38 v1.34.5 @ kali, scheduled 26 curves at B1=2000 toward target pretesting depth of 8.92
+10/02/18 07:54:38 v1.34.5 @ kali, prp10 = 4210889299 (curve 1 stg1 B1=2000 sigma=2811297919 thread=0)
+10/02/18 07:54:38 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C29 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:54:38 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:54:38 v1.34.5 @ kali, scheduled 25 curves at B1=2000 toward target pretesting depth of 5.85
+10/02/18 07:54:38 v1.34.5 @ kali, prp10 = 2225458549 (curve 2 stg1 B1=2000 sigma=3307145274 thread=0)
+10/02/18 07:54:38 v1.34.5 @ kali, Finished 2 curves using Lenstra ECM method on C19 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:54:38 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:54:38 v1.34.5 @ kali, scheduled 23 curves at B1=2000 toward target pretesting depth of 3.08
+10/02/18 07:54:38 v1.34.5 @ kali, prp10 = 3530941441
+10/02/18 07:54:38 v1.34.5 @ kali, Total factoring time = 0.2613 seconds
+10/02/18 07:56:06 v1.34.5 @ kali, 
+10/02/18 07:56:06 v1.34.5 @ kali, ****************************
+10/02/18 07:56:06 v1.34.5 @ kali, Starting factorization of 301303965804248731606386167838508554694818612257
+10/02/18 07:56:06 v1.34.5 @ kali, using pretesting plan: normal
+10/02/18 07:56:06 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/02/18 07:56:06 v1.34.5 @ kali, ****************************
+10/02/18 07:56:06 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C48
+10/02/18 07:56:06 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C48
+10/02/18 07:56:06 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C48
+10/02/18 07:56:06 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C48
+10/02/18 07:56:06 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:56:06 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 14.77
+10/02/18 07:56:06 v1.34.5 @ kali, prp10 = 2156826481 (curve 1 stg2 B1=2000 sigma=3155547287 thread=0)
+10/02/18 07:56:06 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C48 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:56:06 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:56:06 v1.34.5 @ kali, scheduled 29 curves at B1=2000 toward target pretesting depth of 12.00
+10/02/18 07:56:06 v1.34.5 @ kali, prp10 = 3208322833 (curve 1 stg1 B1=2000 sigma=3045103089 thread=0)
+10/02/18 07:56:06 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C39 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:56:06 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:56:06 v1.34.5 @ kali, scheduled 28 curves at B1=2000 toward target pretesting depth of 8.92
+10/02/18 07:56:06 v1.34.5 @ kali, prp10 = 2731258897 (curve 3 stg2 B1=2000 sigma=3706686926 thread=0)
+10/02/18 07:56:06 v1.34.5 @ kali, Finished 3 curves using Lenstra ECM method on C29 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:56:06 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:56:06 v1.34.5 @ kali, scheduled 25 curves at B1=2000 toward target pretesting depth of 6.15
+10/02/18 07:56:06 v1.34.5 @ kali, prp10 = 3914481401 (curve 1 stg1 B1=2000 sigma=2568221407 thread=0)
+10/02/18 07:56:06 v1.34.5 @ kali, Finished 1 curves using Lenstra ECM method on C20 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:56:06 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:56:06 v1.34.5 @ kali, scheduled 24 curves at B1=2000 toward target pretesting depth of 3.08
+10/02/18 07:56:06 v1.34.5 @ kali, prp10 = 4072625497
+10/02/18 07:56:06 v1.34.5 @ kali, Total factoring time = 0.1933 seconds
+10/02/18 07:56:35 v1.34.5 @ kali, 
+10/02/18 07:56:35 v1.34.5 @ kali, ****************************
+10/02/18 07:56:35 v1.34.5 @ kali, Starting factorization of 9168170784306687289
+10/02/18 07:56:35 v1.34.5 @ kali, using pretesting plan: normal
+10/02/18 07:56:35 v1.34.5 @ kali, no tune info: using qs/gnfs crossover of 95 digits
+10/02/18 07:56:35 v1.34.5 @ kali, ****************************
+10/02/18 07:56:35 v1.34.5 @ kali, rho: x^2 + 3, starting 1000 iterations on C19
+10/02/18 07:56:35 v1.34.5 @ kali, rho: x^2 + 2, starting 1000 iterations on C19
+10/02/18 07:56:35 v1.34.5 @ kali, rho: x^2 + 1, starting 1000 iterations on C19
+10/02/18 07:56:35 v1.34.5 @ kali, pm1: starting B1 = 150K, B2 = gmp-ecm default on C19
+10/02/18 07:56:35 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:56:35 v1.34.5 @ kali, scheduled 30 curves at B1=2000 toward target pretesting depth of 5.85
+10/02/18 07:56:35 v1.34.5 @ kali, prp10 = 2242297111 (curve 3 stg2 B1=2000 sigma=2305798375 thread=0)
+10/02/18 07:56:35 v1.34.5 @ kali, Finished 3 curves using Lenstra ECM method on C19 input, B1=2K, B2=gmp-ecm default
+10/02/18 07:56:35 v1.34.5 @ kali, current ECM pretesting depth: 0.00
+10/02/18 07:56:35 v1.34.5 @ kali, scheduled 27 curves at B1=2000 toward target pretesting depth of 3.08
+10/02/18 07:56:35 v1.34.5 @ kali, prp10 = 4088740399
+10/02/18 07:56:35 v1.34.5 @ kali, Total factoring time = 0.1208 seconds
