@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """ Flask Session Cookie Decoder/Encoder """
 __author__ = 'Wilson Sumanang, Alexandre ZANNI'
 
